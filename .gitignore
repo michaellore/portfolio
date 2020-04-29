@@ -1,4 +1,5 @@
 info.txt
+useful-scripts.html
 *.pdf
 .vscode/*
 !.vscode/settings.json

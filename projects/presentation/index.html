@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72088652-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-72088652-5');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4f5dadbb69.js" crossorigin="anonymous"></script>
@@ -18,7 +30,7 @@
             </a>
         </div>
     </section>
-
+    
     <!-- Page 2 -->
     <section id="page-2" class="page">
         <h1>This is Slide 2</h1>
@@ -32,7 +44,7 @@
             </a>
         </div>
     </section>
-
+    
     <!-- Page 3 -->
     <section id="page-3" class="page">
         <h1>This is Slide 3</h1>
@@ -46,7 +58,7 @@
             </a>
         </div>
     </section>
-
+    
     <!-- Page 4 -->
     <section id="page-4" class="page">
         <h1>This is Slide 4</h1>
@@ -62,19 +74,19 @@
     integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
     crossorigin="anonymous"></script>
     <script>
-    //smooth scroll on click
-    $('.btn').on('click', function(event){
-        if (this.hash != ''){
-            event.preventDefault();
-            const hash = this.hash;
-            $('html, body').animate(
+        //smooth scroll on click
+        $('.btn').on('click', function(event){
+            if (this.hash != ''){
+                event.preventDefault();
+                const hash = this.hash;
+                $('html, body').animate(
                 {
                     scrollTop: $(hash).offset().top
                 },
                 800
-            );
-        }
-    });
+                );
+            }
+        });
     </script>  
 </body>
 </html>
