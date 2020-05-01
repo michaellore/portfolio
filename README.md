@@ -12,3 +12,6 @@ https://www.mhlore.com
 
 ### Powerpoint Imitation - [View Site](https://mhlore.com/projects/presentation/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/presentation) | HTML/CSS Flexbox/CSS Animation
 * One page "presentation" site using flexbox and css animation
+
+### Pure CSS Hamburger Menu - [View Site](https://mhlore.com/projects/css_menus/hamburger.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/css_menus) | HTML/CSS Animations
+* Landing Page with a pure css hamburger menu implementation
