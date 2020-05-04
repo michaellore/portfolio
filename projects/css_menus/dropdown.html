@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72088652-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-72088652-5');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4f5dadbb69.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/dropdown.css">
+    <title>CSS Dropdown Menu</title>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>Services <i class="fas fa-angle-down"></i>
+                <ul>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Public Relations</a></li>
+                    <li><a href="#">Accounting</a></li>
+                    <li><a href="#">Technology Services</a></li>
+                </ul>
+            </li>
+            <li>Blog <i class="fas fa-angle-down"></i>
+                <ul>
+                    <li><a href="#">SEO</a> <span>10 Posts</span></li>
+                    <li><a href="#">Marketing</a> <span>18 Posts</span></li>
+                    <li><a href="#">Brand Design</a> <span>6 Posts</span></li>
+                    <li><a href="#">Technology</a> <span>19 Posts</span></li>
+                    <li><a href="#">Finance</a> <span>14 Posts</span></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="showcase">
+        <h1>Website Content</h1>
+    </section>
+</body>
+</html>
