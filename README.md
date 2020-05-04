@@ -15,3 +15,6 @@ https://www.mhlore.com
 
 ### Pure CSS Hamburger Menu - [View Site](https://mhlore.com/projects/css_menus/hamburger.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/css_menus) | HTML/CSS Animations
 * Landing Page with a pure css hamburger menu implementation
+
+### Simple American Revolution Timeline - [View Site](https://mhlore.com/projects/revolution_timeline/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/revolution_timeline) | HTML/CSS Animations
+* A simple timeline page with css animations
