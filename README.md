@@ -1,23 +1,32 @@
 # Michael Lore's Portfolio
 
-## This repo hosts my website and portfolio of personal projects.
+## This repo hosts my website and portfolio of personal projects and smaller proof-of-concept demos.
 
 https://www.mhlore.com
 
-### Hotel Website - [View Site](https://mhlore.com/projects/hotel/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/hotel) | HTML/CSS
+
+#Projects
+---
+
+#### Hotel Website - [View Site](https://mhlore.com/projects/hotel/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/hotel) | HTML/CSS
 * Basic responsive website in plain html/css
 
-### Edgeledger - [View Site](https://mhlore.com/projects/edgeledger/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/edgeledger) | HTML/CSS Flexbox
+#### Edgeledger - [View Site](https://mhlore.com/projects/edgeledger/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/edgeledger) | HTML/CSS Flexbox
 * Basic one-page business site using css flexbox for styling
 
-### Powerpoint Imitation - [View Site](https://mhlore.com/projects/presentation/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/presentation) | HTML/CSS Flexbox/CSS Animations
+---
+
+#Demos
+---
+
+#### Powerpoint Imitation - [View Site](https://mhlore.com/concepts/presentation/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/concepts/presentation) | HTML/CSS Flexbox/CSS Animations
 * One page "presentation" site using flexbox and css animation
 
-### Pure CSS Hamburger Menu - [View Site](https://mhlore.com/projects/css_menus/hamburger.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/css_menus) | HTML/CSS Animations
+#### Pure CSS Hamburger Menu - [View Site](https://mhlore.com/concepts/css_menus/hamburger.html) | [Source](https://github.com/michaellore/portfolio/tree/master/concepts/css_menus) | HTML/CSS Animations
 * Landing Page with a pure css hamburger menu implementation
 
-### Pure CSS Dropdown Menu - [View Site](https://mhlore.com/projects/css_menus/dropdown.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/css_menus) | HTML/CSS
+#### Pure CSS Dropdown Menu - [View Site](https://mhlore.com/concepts/css_menus/dropdown.html) | [Source](https://github.com/michaellore/portfolio/tree/master/concepts/css_menus) | HTML/CSS
 * Pure css dropdown menu implementation
 
-### Simple American Revolution Timeline - [View Site](https://mhlore.com/projects/revolution_timeline/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/revolution_timeline) | HTML/CSS Animations
+#### Simple American Revolution Timeline - [View Site](https://mhlore.com/concepts/revolution_timeline/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/concepts/revolution_timeline) | HTML/CSS Animations
 * A simple timeline page with css animations
