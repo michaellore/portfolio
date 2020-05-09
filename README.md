@@ -5,7 +5,7 @@
 https://www.mhlore.com
 
 
-#Projects
+# Projects
 ---
 
 #### Hotel Website - [View Site](https://mhlore.com/projects/hotel/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/hotel) | HTML/CSS
@@ -14,9 +14,10 @@ https://www.mhlore.com
 #### Edgeledger - [View Site](https://mhlore.com/projects/edgeledger/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/edgeledger) | HTML/CSS Flexbox
 * Basic one-page business site using css flexbox for styling
 
+#### SportsGrid - [View Site](https://mhlore.com/projects/sportsgrid/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/sportsgrid) | HTML/CSS Flexbox
+* Mockup of a sports news website using css grid
 ---
-
-#Demos
+# Demos
 ---
 
 #### Powerpoint Imitation - [View Site](https://mhlore.com/concepts/presentation/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/concepts/presentation) | HTML/CSS Flexbox/CSS Animations
