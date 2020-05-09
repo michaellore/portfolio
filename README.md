@@ -6,7 +6,6 @@ https://www.mhlore.com
 
 
 # Projects
----
 
 #### Hotel Website - [View Site](https://mhlore.com/projects/hotel/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/hotel) | HTML/CSS
 * Basic responsive website in plain html/css
@@ -17,8 +16,9 @@ https://www.mhlore.com
 #### SportsGrid - [View Site](https://mhlore.com/projects/sportsgrid/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/sportsgrid) | HTML/CSS Flexbox
 * Mockup of a sports news website using css grid
 ---
+
+
 # Demos
----
 
 #### Powerpoint Imitation - [View Site](https://mhlore.com/concepts/presentation/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/concepts/presentation) | HTML/CSS Flexbox/CSS Animations
 * One page "presentation" site using flexbox and css animation
