@@ -248,6 +248,7 @@ p{
 #main-footer{
     background: var(--dark-color);
     color: #fff;
+    padding-top: 2rem;
 }
 
 #main-footer img{
