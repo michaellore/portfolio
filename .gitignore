@@ -6,3 +6,4 @@ useful-scripts.html
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+.htaccess
