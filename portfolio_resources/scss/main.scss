@@ -80,9 +80,11 @@ img {
         background: $bg-image no-repeat center right/cover;
         height: 100vh;
         color: #fff;
-        .btn-dark{
+
+        .btn-dark {
             border: 1px solid #fff;
         }
+
         //Header Content
         .header-content {
             text-align: center;
@@ -92,6 +94,11 @@ img {
                 font-size: 4rem;
                 line-height: 1.2;
             }
+        }
+
+        #mobile-header,
+        #mobile-subheader {
+            display: none;
         }
     }
 
@@ -107,10 +114,6 @@ img {
 
     //Home A
     &-a {
-        .bottom-line {
-            margin-bottom: 0;
-        }
-
         .specials {
             margin-top: 3rem;
             display: grid;
@@ -148,6 +151,7 @@ img {
                     background: $main-color;
                     padding: 3rem 0;
                     color: #fff;
+
                     .bottom-line {
                         background: $dark-color;
                     }
@@ -405,3 +409,6 @@ img {
         }
     }
 }
+
+//media queries
+@import 'media';

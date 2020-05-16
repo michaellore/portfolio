@@ -1,0 +1,160 @@
+//Landscape Tablet
+@media(max-width: 1000px) {
+    #header-home {
+        .header-content {
+            padding-top: 30%;
+        }
+    }
+}
+
+//Tablets & smaller
+@media(max-width: 800px) {
+    p {
+        font-size: 1.15rem;
+    }
+
+    #header-home {
+        height: 30rem;
+
+        .header-content {
+            padding-top: 5rem;
+
+            h1 {
+                font-size: 3.5rem;
+            }
+        }
+    }
+
+    .education {
+        .btn-dark {
+            margin-top: 2rem;
+        }
+    }
+
+    #about-a .about-info img {
+        display: none;
+    }
+
+    #home-a .specials {
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+
+        div {
+            margin-top: 3rem;
+        }
+    }
+
+    #home-b .education {
+        grid-template-columns: 1fr;
+
+        div {
+            &:last-child ul {
+                text-align: center;
+            }
+        }
+    }
+}
+
+//Smartphones
+@media(max-width: 500px) {
+    #main-nav {
+        align-items: center;
+        justify-content: center;
+        margin: 0rem 2rem;
+
+        li {
+            padding: 1rem;
+        }
+    }
+
+    #header {
+        &-home {
+            height: 5rem;
+            border-bottom: 3px $main-color solid;
+            background-position: 80% 20%;
+
+            #mobile-header {
+                display: block;
+                color: #000;
+                margin-top: 2rem;
+                text-align: center;
+            }
+
+            #mobile-subheader {
+                display: block;
+                color: #000;
+                text-align: center;
+            }
+
+            .header-content {
+                display: none;
+            }
+        }
+
+        &-inner {
+            height: 5rem;
+            background-position: 80% 20%;
+        }
+    }
+
+    #home-a {
+        background: #f4f4f4;
+        margin-top: 8rem;
+
+        .specials {
+            display: block;
+
+            div {
+                margin-top: 3rem;
+
+                &:last-child {
+                    padding: 2rem;
+                }
+            }
+        }
+    }
+
+    #home-b .education {
+        padding-top: 0;
+
+        div {
+            &:last-child ul {
+                margin: 0 1.5rem;
+            }
+        }
+    }
+
+    //Stack Grids
+    #home-b .education,
+    #contact .contact-container,
+    .items {
+        grid-template-columns: 1fr;
+    }
+
+    .items {
+        gap: 2rem;
+        box-shadow: none;
+    }
+
+    //footer
+    #main-footer {
+        .footer-content {
+            flex-direction: column-reverse;
+            height: auto;
+        }
+    }
+}
+
+
+//Smaller phone nav styles
+@media(max-width: 375px) {
+    #main-nav li {
+        padding: 0.5rem;
+    }
+
+    #main-footer p {
+        font-size: .75rem;
+        text-align: center;
+    }
+}
