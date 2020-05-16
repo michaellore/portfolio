@@ -65,7 +65,7 @@ img {
         transition: border-color 0.5;
 
         &:hover {
-            border-color: $medium-color;
+            border-color: $light-color;
         }
 
         &.current {
@@ -173,7 +173,8 @@ img {
 
                     a {
                         color: $main-color;
-                        &:hover{
+
+                        &:hover {
                             color: $light-color;
                             transition: color 0.5s ease;
                         }
@@ -218,31 +219,43 @@ img {
     .contact-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+
         //Contact Form
-        .contact-form{
-            .form-group{
+        .contact-form {
+            .form-group {
                 margin-top: 1rem;
-                label{
-                display: block;
+
+                label {
+                    display: block;
                 }
-                #name, #email{
+
+                #name,
+                #email {
                     padding: 0.25rem 0.25rem;
                 }
-                #name, #email, #message{
+
+                #name,
+                #email,
+                #message {
                     border: 1px solid $dark-color;
                 }
-                #name:focus, #email:focus, #message:focus{
+
+                #name:focus,
+                #email:focus,
+                #message:focus {
                     outline: 1px solid $main-color;
                 }
-                textarea{
+
+                textarea {
                     width: 75%;
                     padding: 0.75rem;
                 }
             }
-           .btn-light:hover{
-               border-color: $dark-color;
-           } 
-    }
+
+            .btn-light:hover {
+                border-color: $dark-color;
+            }
+        }
 
         //Email & Icons
         .contact-info {
@@ -265,33 +278,37 @@ img {
 
 
 //About Section
-#about{
-    &-a{
-        .about-info{
+#about {
+    &-a {
+        .about-info {
             display: grid;
-            grid-template-areas: 
-            'bioimage bio bio';
-            gap:    1.2rem;
+            grid-template-areas:
+                'bioimage bio bio';
+            gap: 1.2rem;
         }
 
         //grid area
-        .bio-image{
+        .bio-image {
             grid-area: bioimage;
             margin: auto;
         }
-        .bio{
+
+        .bio {
             grid-area: bio;
             border-left: 3px solid $main-color;
             padding: 0.8rem;
             background: #f4f4f4;
-            p{
+
+            p {
                 text-align: left;
                 margin-bottom: 1rem;
             }
-            .btn-dark{
-                &:hover{
+
+            .btn-dark {
+                &:hover {
                     border: 1px solid $dark-color;
                 }
+
                 margin-bottom: 2rem;
             }
         }
@@ -299,44 +316,67 @@ img {
 }
 
 //Work Section
-#work{
-    &-a{
-       background: #f4f4f4; 
-       .lead{
-        margin-bottom: 0.5rem;
+#work {
+    &-a {
+        background: #f4f4f4;
+
+        .lead {
+            margin-bottom: 0.5rem;
         }
-        p{
+
+        p {
             margin-bottom: 2rem;
         }
-        a{
+
+        a {
             color: $main-color;
+
             &:hover {
                 color: $light-color;
                 transition: all 0.5s ease;
             }
         }
     }
-    &-b{
+
+    &-b {
         background: #ddd;
-        .bottom-line{
+
+        .bottom-line {
             background-color: $light-color;
         }
-        .item{
+
+        .item {
             background: $main-color;
         }
-        .lead{
+
+        .lead {
             margin-bottom: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 2rem;
+        }
+
+        a {
+            color: $main-color;
+
+            &:hover {
+                color: $light-color;
+                transition: all 0.5s ease;
             }
-            p{
-                margin-bottom: 2rem;
-            }
-            a{
-                color: $main-color;
-                &:hover {
-                    color: $light-color;
-                    transition: all 0.5s ease;
-                }
-            }
+        }
+    }
+}
+
+//Message sent page
+#thanks {
+    a {
+        color: $main-color;
+
+        &:hover {
+            color: $light-color;
+            transition: color 0.5s ease;
+        }
     }
 }
 
@@ -361,7 +401,7 @@ img {
             color: $main-color;
 
             &:hover {
-                color: $medium-color;
+                color: $light-color;
                 transition: all 0.5s ease;
             }
         }

@@ -42,7 +42,7 @@ if (!preg_match(
         
         //redirect to the 'thank you' page
         
-        header('Location: index.html');
+        header('Location: message_sent.html');
         
     }
     ?>
