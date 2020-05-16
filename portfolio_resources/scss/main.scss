@@ -80,7 +80,9 @@ img {
         background: $bg-image no-repeat center right/cover;
         height: 100vh;
         color: #fff;
-
+        .btn-dark{
+            border: 1px solid #fff;
+        }
         //Header Content
         .header-content {
             text-align: center;
@@ -145,13 +147,9 @@ img {
                 &:first-child {
                     background: $main-color;
                     padding: 3rem 0;
-
+                    color: #fff;
                     .bottom-line {
                         background: $dark-color;
-                    }
-
-                    li {
-                        font-weight: bold;
                     }
 
                     .btn-dark:hover {
@@ -252,8 +250,8 @@ img {
                 }
             }
 
-            .btn-light:hover {
-                border-color: $dark-color;
+            .btn-dark:hover {
+                border: 1px solid $dark-color;
             }
         }
 
