@@ -21,102 +21,43 @@
   <script src="https://kit.fontawesome.com/4f5dadbb69.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="portfolio_resources/css/main.css">
-  <title>Michael Lore's Portfolio</title>
+  <title>About Me | Michael Lore's Portfolio</title>
 </head>
 
 <body>
   <!-- Header -->
-  <header id="header-home">
+  <header id="header-inner">
     <div class="container">
       <nav id="main-nav">
         <ul>
-          <li><a href="index.html" class="current">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html"class="current">About</a></li>
           <li><a href="work.html">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
         </ul>
       </nav>
-      <div class="header-content">
-        <h1>I am Michael Lore, a <span class="txt-type" data-wait="3000"
-            data-words='["Developer", "Designer", "Learner"]'></span></h1>
-        <p class="lead">I'm a designer and developer specializing in elegant and lightweight designs</p>
-        <a href="#home-a" class="btn-light btn-scroll">What I Do</a>
-      </div>
     </div>
   </header>
 
-  <!-- Section A - Specialize -->
-  <section id="home-a" class="text-center py-3">
-    <div class="container">
-      <h2 class="section-title">
-        I Work With
-      </h2>
-      <div class="bottom-line"></div>
-      <p class="lead">
-        Modern and timeless technologies to create stylish and clean websites and applications, and I'm always learning
-        new skills
-      </p>
-      <div class="specials">
-        <div>
-          <i class="fas fa-file-code fa-2x"></i>
-          <h3>HTML/CSS</h3>
-          <p>The baseline of a beautiful website lies in its markup and styling. I leverage the full power of CSS to
-            create beautiful sites while remaining lightweight.</p>
-        </div>
-        <div>
-          <i class="fab fa-js fa-2x"></i>
-          <h3>Javascript</h3>
-          <p>A good-looking site is one thing; a fully interactive site is something else entirely. I use vanilla JS
-            along with popular frameworks to take my sites to the next level.</p>
-        </div>
-        <div>
-          <i class="fas fa-terminal fa-2x"></i>
-          <h3>Programming</h3>
-          <p>I enjoy learning languages like Python and Java to improve my programming skills and work on projects
-            outside the Web, like data science and mobile apps. </p>
-        </div>
-        <div>
-          <a href="work.html" class="btn-dark">View Projects</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Section B: education -->
-  <section id="home-b" class="text-center">
-    <div class="education">
-      <div>
-        <ul>
-          <h2>My Education</h2>
+  <!-- Section A: Info -->
+  <section id="about-a" class="text-center py-3">
+      <div class="container">
+          <h2 class="section-title">About Me</h2>
           <div class="bottom-line"></div>
-          <li>
-            <p>The College of New Jersey</p>
-          </li>
-          <li>
-            <p>BA, Interactive Multimedia</p>
-          </li>
-          <li>
-            <p>May 2017</p>
-          </li>
-          <a href="about.html" class="btn-dark">More About Me</a>
-        </ul>
-      </div>
+          <p class="lead">A little about myself...</p>
+          <div class="about-info">
+              <img src="portfolio_resources/img/about.jpg" alt="image of myself for bio" class="bio-image">
+              <div class="bio">
+                  <h4>My Journey</h4>
+                  <p>I've always gravitated toward technology; as a child I spent countless hours dialing into the internet, wondering how it all worked. I first discovered web development early in high school, following Dreamweaver tutorials from outdated textbooks on iMacs that had seen better years. It was there I began to see the potential for what could be created on the web, untethered from a WYSIWYG application. I began learning the beginnings of writing real html and css and realized that a career doing this could be for me.</p>
+                  <p>In college I started out as a computer science major and quickly learned that it wasn't for me. I respected the theory, understood why learning it was necessary, but never enjoyed it. It seemed like nothing ever actually got made - the professor would give a lecture and you would write a small program outputting to the terminal. I then discovered the Interactive Multimedia program at my college and immediately jumped ship. In the IMM program I learned theory, yes, but I also had the satisfaction of seeing immediate results. I thrived on creating things. I learned front-end web dev in-depth, along with other skills like digital storytelling, technical writing, and game design.</p>
+                  <p>My education allowed me the luxury of learning dozens of relevant and interesting technologies and provided a strong base for further self-learning, which I continue to take advantage of through courses on sites like Udemy and LinkedIn Learning.</p>
+                  <p>Check out some of my projects:</p>
+                  <a href="work.html" class="btn-dark">View Projects</a>
+              </div>
+          </div>
 
-      <div>
-        <ul>
-          <h2>About My Major</h2>
-          <div class="bottom-line"></div>
-          <p>The Interactive Multimedia (IMM) program at The College of New Jersey (TCNJ) is a multi-disciplinary
-            hands-on exploration of technology. The course combines hands-on learning with deep theory and cultural
-            discussion to provide students with skills in web development, graphic design, and video production as well
-            as critical career skills such as collaboration and project management.</p>
-          <p><a href="https://imm.tcnj.edu/program/" target="_blank" rel="noopener noreferrer">Read more about the
-              program here</a></p>
-        </ul>
       </div>
-    </div>
-    </div>
   </section>
 
   <!-- Section C: get in touch -->
@@ -175,25 +116,6 @@
     </div>
   </footer>
 
-  <script
-    src="https://code.jquery.com/jquery-3.5.0.min.js"
-    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
-    crossorigin="anonymous"></script>
-    <script>
-        $('.btn-scroll').on('click', function(event){
-            if (this.hash != ''){
-                event.preventDefault();
-                const hash = this.hash;
-                $('html, body').animate(
-                {
-                    scrollTop: $(hash).offset().top
-                },
-                800
-                );
-            }
-        });
-  </script>
-  <script src="portfolio_resources/js/typewriter.js"></script>
   <script src="portfolio_resources/js/gen_validatorv4.js"></script>
   <script>
     var frmvalidator  = new Validator("contact-form");
