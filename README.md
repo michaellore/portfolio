@@ -13,7 +13,7 @@ https://www.mhlore.com
 #### Edgeledger - [View Site](https://mhlore.com/projects/edgeledger/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/edgeledger) | HTML/CSS Flexbox
 * Basic one-page business site using css flexbox for styling
 
-#### SportsGrid - [View Site](https://mhlore.com/projects/sportsgrid/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/sportsgrid) | HTML/CSS Flexbox
+#### SportsGrid - [View Site](https://mhlore.com/projects/sportsgrid/index.html) | [Source](https://github.com/michaellore/portfolio/tree/master/projects/sportsgrid) | HTML/CSS Grid
 * Mockup of a sports news website using css grid
 ---
 
