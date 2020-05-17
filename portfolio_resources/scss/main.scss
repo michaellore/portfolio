@@ -128,7 +128,7 @@ img {
 
             div {
                 &:last-child {
-                    padding: 4rem;
+                    padding: 2rem;
                     grid-column: 2;
 
                     .btn-dark:hover {
@@ -254,8 +254,12 @@ img {
                 }
             }
 
-            .btn-dark:hover {
-                border: 1px solid $dark-color;
+            .btn-dark {
+                margin-top: 1rem;
+
+                &:hover {
+                    border: 1px solid $dark-color;
+                }
             }
         }
 
