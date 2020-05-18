@@ -288,19 +288,10 @@ img {
     &-a {
         .about-info {
             display: grid;
-            grid-template-areas:
-                'bioimage bio bio';
             gap: 1.2rem;
         }
 
-        //grid area
-        .bio-image {
-            grid-area: bioimage;
-            margin: auto;
-        }
-
         .bio {
-            grid-area: bio;
             border-left: 3px solid $main-color;
             padding: 0.8rem;
             background: #f4f4f4;
@@ -308,7 +299,17 @@ img {
             p {
                 text-align: left;
                 margin-bottom: 1rem;
+
+                a {
+                    color: $main-color;
+
+                    &:hover {
+                        transition: color 0.5s ease;
+                        color: $light-color;
+                    }
+                }
             }
+
 
             .btn-dark {
                 &:hover {
