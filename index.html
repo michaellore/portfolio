@@ -36,9 +36,9 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <h1 id="mobile-header">I'm Michael Lore</h1> 
-      <p id="mobile-subheader">a designer and developer</p> 
-      <div class="header-content"> 
+      <h1 id="mobile-header">I'm Michael Lore</h1>
+      <p id="mobile-subheader">a designer and developer</p>
+      <div class="header-content">
         <h1>I am Michael Lore, a <span class="txt-type" data-wait="3000"
             data-words='["Developer", "Designer", "Learner"]'></span></h1>
         <p class="lead">I'm a designer and developer specializing in elegant and lightweight designs</p>
@@ -55,15 +55,14 @@
       </h2>
       <div class="bottom-line"></div>
       <p class="lead">
-        Modern and timeless technologies to create stylish and clean websites and applications, and I'm always learning
-        new skills
+        Modern and timeless technologies to create stylish and clean websites and applications
       </p>
       <div class="specials">
         <div>
           <i class="fas fa-file-code fa-2x"></i>
           <h3>HTML/CSS</h3>
           <p>The baseline of a beautiful website lies in its markup and styling. I leverage the full power of CSS to
-            create beautiful sites while remaining lightweight.</p>
+            create beautiful and lightweight sites.</p>
         </div>
         <div>
           <i class="fab fa-js fa-2x"></i>
@@ -90,7 +89,7 @@
     <div class="education">
       <div>
         <h2>My Education</h2>
-          <div class="bottom-line"></div>
+        <div class="bottom-line"></div>
         <ul>
           <li>
             <p>The College of New Jersey</p>
@@ -156,8 +155,8 @@
                   class="fab fa-linkedin fa-2x"></i> Linkedin</a></li>
             <li><a href="https://github.com/michaellore" target="_blank" rel="noopener noreferrer"><i
                   class="fab fa-github-square fa-2x"></i> Github</a></li>
-            <li><a href="https://mhlore.com/Michael%20Lore%20-%20Resume.pdf" target="_blank" rel="noopener noreferrer"><i
-                  class="fas fa-file-pdf fa-2x"></i> Resume</a></li>
+            <li><a href="https://mhlore.com/Michael%20Lore%20-%20Resume.pdf" target="_blank"
+                rel="noopener noreferrer"><i class="fas fa-file-pdf fa-2x"></i> Resume</a></li>
           </ul>
         </div>
       </div>
@@ -179,32 +178,29 @@
     </div>
   </footer>
 
-  <script
-    src="https://code.jquery.com/jquery-3.5.0.min.js"
-    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
-    crossorigin="anonymous"></script>
-    <script>
-        $('.btn-scroll').on('click', function(event){
-            if (this.hash != ''){
-                event.preventDefault();
-                const hash = this.hash;
-                $('html, body').animate(
-                {
-                    scrollTop: $(hash).offset().top
-                },
-                800
-                );
-            }
-        });
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  <script>
+    $('.btn-scroll').on('click', function (event) {
+      if (this.hash != '') {
+        event.preventDefault();
+        const hash = this.hash;
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          },
+          800
+        );
+      }
+    });
   </script>
   <script src="portfolio_resources/js/typewriter.js"></script>
   <script src="portfolio_resources/js/gen_validatorv4.js"></script>
   <script>
-    var frmvalidator  = new Validator("contact-form");
-    frmvalidator.addValidation("name","req","Please provide your name");
-    frmvalidator.addValidation("email","req","Please provide your email");
-    frmvalidator.addValidation("email","email","Please enter a valid email address");
-    frmvalidator.addValidation("message","req","Please provide a message");
+    var frmvalidator = new Validator("contact-form");
+    frmvalidator.addValidation("name", "req", "Please provide your name");
+    frmvalidator.addValidation("email", "req", "Please provide your email");
+    frmvalidator.addValidation("email", "email", "Please enter a valid email address");
+    frmvalidator.addValidation("message", "req", "Please provide a message");
   </script>
 </body>
 
