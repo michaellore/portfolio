@@ -344,35 +344,6 @@ img {
             }
         }
     }
-
-    &-b {
-        background: #ddd;
-
-        .bottom-line {
-            background-color: $light-color;
-        }
-
-        .item {
-            background: $main-color;
-        }
-
-        .lead {
-            margin-bottom: 0.5rem;
-        }
-
-        p {
-            margin-bottom: 2rem;
-        }
-
-        a {
-            color: $main-color;
-
-            &:hover {
-                color: $light-color;
-                transition: all 0.5s ease;
-            }
-        }
-    }
 }
 
 //Message sent page
