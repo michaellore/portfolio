@@ -115,6 +115,7 @@ img {
     //Home A
     &-a {
         background: #f4f4f4;
+
         .specials {
             margin-top: 3rem;
             display: grid;
@@ -330,7 +331,7 @@ img {
             margin-bottom: 0.5rem;
         }
 
-        .lead-sub{
+        .lead-sub {
             margin-bottom: 1rem;
         }
 
@@ -347,6 +348,19 @@ img {
                 transition: all 0.5s ease;
             }
         }
+
+        .btn-dark {
+            color: #fff;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            &:hover {
+                border: 1px solid $dark-color;
+                color: #fff;
+                transition: all 0.5s ease;
+            }
+
+        }
+
     }
 }
 
