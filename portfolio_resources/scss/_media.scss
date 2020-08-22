@@ -81,34 +81,13 @@
         }
     }
 
-    #header {
-        &-home {
-            height: 5rem;
-            border-bottom: 3px $main-color solid;
-            background-position: 80% 20%;
+    #header-home {
+        height: 100vh;
 
-            #mobile-header {
-                display: block;
-                color: #000;
-                margin-top: 3rem;
-                text-align: center;
-            }
-
-            #mobile-subheader {
-                display: block;
-                color: #000;
-                text-align: center;
-            }
-
-            .header-content {
-                display: none;
-            }
+        .header-content {
+            padding-top: 40%;
         }
-
-        &-inner {
-            height: 5rem;
-            background-position: 80% 20%;
-        }
+        
     }
 
     #home-a {
@@ -139,7 +118,7 @@
     }
 
     .work-home{
-        margin-top: 6rem;
+        margin-top: 2rem;
         padding-bottom: 0rem;
     }
 
@@ -152,7 +131,6 @@
 
     .items {
         gap: 2rem;
-        box-shadow: none;
     }
 }
 
