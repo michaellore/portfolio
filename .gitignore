@@ -8,3 +8,4 @@ useful-scripts.html
 *.code-workspace
 .htaccess
 portfolio_resources/css/main.css
+sendmail.php
