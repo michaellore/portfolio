@@ -264,6 +264,15 @@ img {
                 line-height: 1.6;
                 font-size: 1rem;
             }
+            
+            .captcha-container{
+                text-align: center;
+            }
+
+            .g-recaptcha{
+                margin-top: 1rem;
+                display: inline-block;
+            }
 
             .btn-dark {
                 margin-top: 1rem;
