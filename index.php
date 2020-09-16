@@ -22,7 +22,7 @@
               <div class="item-text-wrap">
                 <h2 class="item-text-title"><a href="https://mhlore.com/projects/dbrealty/index.html" target="_blank" rel="noopener noreferrer">DB Realty</a></h2>
               
-                <p class="item-text-category"><a href="/project/dbrealty.html" data-lity>Project Info <i class="fas fa-info-circle"></i></a></p>
+                <p class="item-text-category"><a href="/projectinfo/dbrealty.html" data-lity>Project Info <i class="fas fa-info-circle"></i></a></p>
               </div>
             </div>
         </div>     
@@ -35,7 +35,7 @@
               <div class="item-text-wrap">
                 <h2 class="item-text-title"><a href="https://mhlore.com/projects/travelbot/index.html" target="_blank" rel="noopener noreferrer">Travelbot</a></h2>
               
-                <p class="item-text-category"><a href="/project/travelbot.html" data-lity>Project Info <i class="fas fa-info-circle"></i></a></p>
+                <p class="item-text-category"><a href="/projectinfo/travelbot.html" data-lity>Project Info <i class="fas fa-info-circle"></i></a></p>
               </div>
             </div>
         </div>   
@@ -48,7 +48,7 @@
               <div class="item-text-wrap">
                 <h2 class="item-text-title"><a href="https://mhlore.com/projects/njtrails/index.html" target="_blank" rel="noopener noreferrer">NJ Trails</a></h2>
               
-                <p class="item-text-category"><a href="/project/njtrails.html" data-lity>Project Info <i class="fas fa-info-circle"></i></a></p>
+                <p class="item-text-category"><a href="/projectinfo/njtrails.html" data-lity>Project Info <i class="fas fa-info-circle"></i></a></p>
               </div>
             </div>
         </div>     

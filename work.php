@@ -23,7 +23,7 @@
             <h2 class="item-text-title"><a href="https://mhlore.com/projects/dbrealty/index.html" target="_blank"
                 rel="noopener noreferrer">DB Realty</a></h2>
 
-            <p class="item-text-category"><a href="/project/dbrealty.html" data-lity>Project Info <i
+            <p class="item-text-category"><a href="/projectinfo/dbrealty.html" data-lity>Project Info <i
                   class="fas fa-info-circle"></i></a></p>
           </div>
         </div>
@@ -39,7 +39,7 @@
             <h2 class="item-text-title"><a href="https://mhlore.com/projects/travelbot/index.html" target="_blank"
                 rel="noopener noreferrer">Travelbot</a></h2>
 
-            <p class="item-text-category"><a href="/project/travelbot.html" data-lity>Project Info <i
+            <p class="item-text-category"><a href="/projectinfo/travelbot.html" data-lity>Project Info <i
                   class="fas fa-info-circle"></i></a></p>
           </div>
         </div>
@@ -55,7 +55,7 @@
             <h2 class="item-text-title"><a href="https://mhlore.com/projects/njtrails/index.html" target="_blank"
                 rel="noopener noreferrer">NJ Trails</a></h2>
 
-            <p class="item-text-category"><a href="/project/njtrails.html" data-lity>Project Info <i
+            <p class="item-text-category"><a href="/projectinfo/njtrails.html" data-lity>Project Info <i
                   class="fas fa-info-circle"></i></a></p>
           </div>
         </div>
@@ -72,7 +72,7 @@
             <h2 class="item-text-title"><a href="https://mhlore.com/projects/sportsgrid/index.html" target="_blank"
                 rel="noopener noreferrer">Sportsgrid</a></h2>
 
-            <p class="item-text-category"><a href="/project/sportsgrid.html" data-lity>Project Info <i
+            <p class="item-text-category"><a href="/projectinfo/sportsgrid.html" data-lity>Project Info <i
                   class="fas fa-info-circle"></i></a></p>
           </div>
         </div>
@@ -88,7 +88,7 @@
             <h2 class="item-text-title"><a href="https://mhlore.com/projects/edgeledger/index.html" target="_blank"
                 rel="noopener noreferrer">Edgeledger</a></h2>
 
-            <p class="item-text-category"><a href="/project/edgeledger.html" data-lity>Project Info <i
+            <p class="item-text-category"><a href="/projectinfo/edgeledger.html" data-lity>Project Info <i
                   class="fas fa-info-circle"></i></a></p>
           </div>
         </div>
@@ -104,7 +104,7 @@
             <h2 class="item-text-title"><a href="https://mhlore.com/projects/hotel/index.html" target="_blank"
                 rel="noopener noreferrer">Hotel NJ</a></h2>
 
-            <p class="item-text-category"><a href="/project/hotelnj.html" data-lity>Project Info <i
+            <p class="item-text-category"><a href="/projectinfo/hotelnj.html" data-lity>Project Info <i
                   class="fas fa-info-circle"></i></a></p>
           </div>
         </div>
