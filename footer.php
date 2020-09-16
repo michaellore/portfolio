@@ -68,6 +68,7 @@
          }
      });
  </script>
+ <script src="portfolio_resources/js/lity.min.js"></script>
  <script src="portfolio_resources/js/gen_validatorv4.js"></script>
  <script>
      var frmvalidator = new Validator("contact-form");
