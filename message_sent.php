@@ -7,7 +7,7 @@
             <h2 class="section-title">Thanks!</h2>
             <div class="bottom-line"></div>
             <p class="lead">Your message was sent. I'll get back to you as soon as possible</p>
-            <p>If you haven't already, <a href="work.html">check out some of my projects</a> or <a href="about.html">learn more about me.</a></p>
+            <p>If you haven't already, <a href="work.php">check out some of my projects</a> or <a href="about.php">learn more about me.</a></p>
         </div>
     </section>
 
