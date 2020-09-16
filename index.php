@@ -57,7 +57,7 @@
 
     </div>
      <div>
-        <a href="work.html" class="btn-dark">More Projects</a>
+        <a href="work.php" class="btn-dark">More Projects</a>
       </div> 
     </div>
   </section>
@@ -116,7 +116,7 @@
           <li>
             <p>May 2017</p>
           </li>
-          <a href="about.html" class="btn-dark">More About Me</a>
+          <a href="about.php" class="btn-dark">More About Me</a>
         </ul>
       </div>
 

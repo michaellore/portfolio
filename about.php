@@ -13,7 +13,7 @@
                   <p>In college I <a href="https://imm.tcnj.edu/program/" target="_blank" rel="noopener noreferrer">majored in Interactive Multimedia</a>. In the IMM program I learned theory, and also had the satisfaction of seeing immediate results. I thrived in creating things - websites, branding, music, stories, games. I learned front-end web dev in-depth, along with other skills like digital storytelling, technical writing, and game design.</p>
                   <p>My education allowed me the luxury of learning dozens of relevant and interesting technologies and provided a strong base for further self-learning, which I continue to take advantage of through courses on sites like Udemy and LinkedIn Learning.</p>
                   <p>Check out some of my projects:</p>
-                  <a href="work.html" class="btn-dark">View Projects</a>
+                  <a href="work.php" class="btn-dark">View Projects</a>
             </div>
           </div>
 
