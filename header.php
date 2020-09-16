@@ -20,6 +20,7 @@
     <meta name="author" content="Michael Lore" />
     <script src="https://kit.fontawesome.com/4f5dadbb69.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio_resources/css/lity.min.css">
     <link rel="stylesheet" href="portfolio_resources/css/main.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Michael Lore's Portfolio</title>

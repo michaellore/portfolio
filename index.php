@@ -10,50 +10,48 @@
       <p class="lead-sub">The source code for all projects is available on <a
           href="https://github.com/michaellore" target="_blank"
           rel="noopener noreferrer">my Github</a>.</p>
+      
 
       <div class="items">
 
-        <div class="item">
-          <a href="https://mhlore.com/projects/dbrealty/index.html" target="_blank" rel="noopener noreferrer">
+      <div class="item">
             <div class="item-image">
-              <img src="portfolio_resources/img/items/dbrealty.png" alt="DB Realty Project">
+            <a href="https://mhlore.com/projects/dbrealty/index.html" target="_blank" rel="noopener noreferrer"><img src="portfolio_resources/img/items/dbrealty.png" alt="DB Realty Project"></a>
             </div>
             <div class="item-text">
               <div class="item-text-wrap">
-                <p class="item-text-category">HTML/CSS</p>
-                <h2 class="item-text-title">DB Realty</h2>
+                <h2 class="item-text-title"><a href="https://mhlore.com/projects/dbrealty/index.html" target="_blank" rel="noopener noreferrer">DB Realty</a></h2>
+              
+                <p class="item-text-category"><a href="/project/dbrealty.html" data-lity>Project Info <i class="fas fa-info-circle"></i></a></p>
               </div>
             </div>
-          </a>
-        </div>  
+        </div>     
 
         <div class="item">
-          <a href="https://mhlore.com/projects/travelbot/index.html" target="_blank" rel="noopener noreferrer">
             <div class="item-image">
-              <img src="portfolio_resources/img/items/travelbot.png" alt="Travelbot Project">
+            <a href="https://mhlore.com/projects/travelbot/index.html" target="_blank" rel="noopener noreferrer"><img src="portfolio_resources/img/items/travelbot.png" alt="Travelbot Project"></a>
             </div>
             <div class="item-text">
               <div class="item-text-wrap">
-                <p class="item-text-category">HTML/CSS</p>
-                <h2 class="item-text-title">Travelbot</h2>
+                <h2 class="item-text-title"><a href="https://mhlore.com/projects/travelbot/index.html" target="_blank" rel="noopener noreferrer">Travelbot</a></h2>
+              
+                <p class="item-text-category"><a href="/project/travelbot.html" data-lity>Project Info <i class="fas fa-info-circle"></i></a></p>
               </div>
             </div>
-          </a>
-        </div>  
+        </div>   
 
         <div class="item">
-          <a href="https://mhlore.com/projects/njtrails/index.html" target="_blank" rel="noopener noreferrer">
             <div class="item-image">
-              <img src="portfolio_resources/img/items/njtrails.png" alt="NJ Trails Project">
+            <a href="https://mhlore.com/projects/njtrails/index.html" target="_blank" rel="noopener noreferrer"><img src="portfolio_resources/img/items/njtrails.png" alt="NJ Trails Project"></a>
             </div>
             <div class="item-text">
               <div class="item-text-wrap">
-                <p class="item-text-category">HTML/CSS</p>
-                <h2 class="item-text-title">NJ Trails</h2>
+                <h2 class="item-text-title"><a href="https://mhlore.com/projects/njtrails/index.html" target="_blank" rel="noopener noreferrer">NJ Trails</a></h2>
+              
+                <p class="item-text-category"><a href="/project/njtrails.html" data-lity>Project Info <i class="fas fa-info-circle"></i></a></p>
               </div>
             </div>
-          </a>
-        </div>  
+        </div>     
 
     </div>
      <div>

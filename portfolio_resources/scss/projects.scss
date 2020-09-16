@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+    letter-spacing: 1px;
+}
+
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+}
+
+.container{
+    margin-top: 25vh;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h3, p, ul {margin-bottom: 1rem;}
+
+p{
+    margin-right: 4rem;
+    margin-left: 4rem;
+
+    @media only screen and (max-width: 525px){
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    @media only screen and (max-width: 375px){
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    
+}
