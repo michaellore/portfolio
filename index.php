@@ -65,30 +65,42 @@
   <section id="home-a" class="text-center py-3">
     <div class="container">
       <h2 class="section-title">
-        I Work With
+        Get to know me
       </h2>
       <div class="bottom-line"></div>
       <p class="lead">
-        Modern and timeless technologies to create stylish and clean websites and applications
+        Things I know, things I'm learning, things I enjoy
       </p>
       <div class="specials">
         <div>
-          <i class="fas fa-file-code fa-2x"></i>
-          <h3>HTML/CSS</h3>
-          <p>The baseline of a beautiful website lies in its markup and styling. I leverage the full power of CSS to
-            create beautiful and lightweight sites.</p>
+        <i class="fas fa-graduation-cap fa-2x"></i>
+          <h3>I know:</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Responsive Design</li>
+            <li>Photoshop</li>
+            <li>Data Entry</li>
+          </ul>
         </div>
         <div>
-          <i class="fab fa-js fa-2x"></i>
-          <h3>Javascript</h3>
-          <p>A good-looking site is one thing; a fully interactive site is something else entirely. I use vanilla JS
-            along with popular frameworks to take my sites to the next level.</p>
+          <i class="fas fa-book fa-2x"></i>
+          <h3>I'm Learning:</h3>
+          <ul>
+            <li>Javascript</li>
+            <li>NodeJS</li>
+            <li>React</li>
+          </ul>
         </div>
         <div>
-          <i class="fas fa-terminal fa-2x"></i>
-          <h3>Programming</h3>
-          <p>I enjoy learning languages like Python and Java to improve my programming skills and work on projects
-            outside the Web, like data science and mobile apps. </p>
+          <i class="fas fa-thumbs-up fa-2x"></i>
+          <h3>I enjoy:</h3>
+          <ul>
+            <li>Sports</li>
+            <li>Reading</li>
+            <li>Gaming</li>
+            <li>History</li>
+          </ul>
         </div>
         <div>
           <a href="#contact" class="btn-dark">Work With Me</a>
