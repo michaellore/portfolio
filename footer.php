@@ -54,20 +54,6 @@
      </div>
  </footer>
 
- <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
- <script>
-     $('.btn-scroll').on('click', function(event) {
-         if (this.hash != '') {
-             event.preventDefault();
-             const hash = this.hash;
-             $('html, body').animate({
-                     scrollTop: $(hash).offset().top
-                 },
-                 800
-             );
-         }
-     });
- </script>
  <script src="portfolio_resources/js/lity.min.js"></script>
  <script src="portfolio_resources/js/gen_validatorv4.js"></script>
  <script>
