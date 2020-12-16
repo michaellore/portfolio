@@ -75,17 +75,17 @@
         <div>
         <i class="fas fa-graduation-cap fa-2x"></i>
           <h3>I know:</h3>
-          <p>I have years of experience working with HTML and CSS to design beautiful lightweight and responsive websites. I've worked with Photoshop for many years, and have professional experience in data entry.</p>
+          <p>I have years of experience working with HTML and CSS to design beautiful lightweight and responsive websites, with a good foundation in vanilla JS for interactivity. I've also worked with Photoshop for many years, and have experience working with Adobe Premiere and other video editors.</p>
         </div>
         <div>
           <i class="fas fa-book fa-2x"></i>
           <h3>I'm Learning:</h3>
-          <p>Currently I'm building foundational knowledge in Javascript. After mastering vanilla JS, I plan on learning NodeJS for server-side programming, and React as a frontend framework.</p>
+          <p>Currently I'm building on my foundational knowledge of vanilla JS by learning NodeJS for server-side programming and React as a frontend framework.</p>
         </div>
         <div>
           <i class="fas fa-thumbs-up fa-2x"></i>
           <h3>I enjoy:</h3>
-          <p>In my spare time, I enjoy watching sports (football and baseball especially), and reading fiction. I game on occasion and have a passion for history. Most of my time gaming is spent playing historical strategy games like Age of Empires and Crusader Kings.</p>
+          <p>In my spare time, I enjoy watching sports (football and baseball especially), and reading fiction. I game on occasion and have a passion for history. Most of my time gaming is spent playing historical strategy games like Age of Empires and Crusader Kings. I also have an interest in cartography and dabble in game development.</p>
         </div>
         <div>
           <a href="#contact" class="btn-dark">Work With Me</a>
