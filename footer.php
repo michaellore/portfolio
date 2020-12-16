@@ -53,7 +53,7 @@
          </div>
      </div>
  </footer>
-
+ <script src="portfolio_resources/js/jquery-3.5.1.min.js"></script>
  <script src="portfolio_resources/js/lity.min.js"></script>
  <script src="portfolio_resources/js/gen_validatorv4.js"></script>
  <script>
