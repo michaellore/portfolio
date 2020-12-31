@@ -45,7 +45,7 @@
  <!-- Footer -->
  <footer id="main-footer">
      <div class="footer-content container">
-         <p>Copyright &copy; 2020 All Rights Reserved</p>
+         <p>Copyright &copy; 2021 All Rights Reserved</p>
          <div class="social">
              <a href="mailto:mlore95@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope fa-2x"></i></a>
              <a href="https://www.linkedin.com/in/mlore/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x"></i></a>
